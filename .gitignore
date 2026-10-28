@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Datasets and model artifacts (do not commit large files by default)
+data/
+datasets/
+*.h5
+*.keras
+*.hdf5
+*.pt
+*.pth
+*.onnx
+
+# Secrets / local environment
+.env
+.env.*
